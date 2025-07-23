@@ -1,4 +1,5 @@
-from rich import print as pprint
+from clib.browser import CLIB
 
 def main():
-    pprint("Hello")
+    clib = CLIB()
+    clib.mainloop()
